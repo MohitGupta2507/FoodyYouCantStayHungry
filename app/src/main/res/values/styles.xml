@@ -1,0 +1,57 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/statusColor</item>
+    </style>
+
+    <style name="UserInfo" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <item name="colorPrimary">#03A9F4</item>
+        <item name="colorPrimaryDark">#0277BD</item>
+        <item name="colorAccent">#FFFFFF</item>
+    </style>
+
+    <style name="Edittexts" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">@color/background_material_light</item>
+        <item name="colorPrimaryDark">@color/background_material_light</item>
+        <item name="android:textColor">@color/background_material_light</item>
+        <item name="colorAccent">#03A9F4</item>
+        <item name="android:colorBackground">#FFFFFF</item>
+    </style>
+
+    <style name="VideoUpload" parent="Theme.AppCompat.Light.DarkActionBar">    <item name="colorPrimary">#03A9F4</item>
+    <item name="colorPrimaryDark">#0277BD</item>
+    <item name="colorAccent">#FFFFFF</item>
+    </style>
+
+
+    <style name="General" parent="Theme.AppCompat.Light.DarkActionBar">
+
+        <item name="colorPrimary">#03A9F4</item>
+        <item name="colorPrimaryDark">#0277BD</item>
+        <item name="colorAccent">#FFFFFF</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorAccent">@color/background_material_light</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="progress" parent="Theme.AppCompat.NoActionBar">
+    <item name="colorPrimary">#03A9F4</item>
+    <item name="colorAccent">#03A9F4</item>
+    <item name="colorPrimaryDark">#03A9F4</item>
+
+    </style>
+</resources>

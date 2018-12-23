@@ -1,0 +1,87 @@
+{
+  "project_info": {
+    "project_number": "847375846356",
+    "firebase_url": "https://foodyyoucantstayhungry.firebaseio.com",
+    "project_id": "foodyyoucantstayhungry",
+    "storage_bucket": "foodyyoucantstayhungry.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:847375846356:android:d136268d7bf5e877",
+        "android_client_info": {
+          "package_name": "com.foodies.mohitgupta.foodyyoucantstsyhungry"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "847375846356-1obc3nkrpv0kojbccn82lqp904tsg12t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.foodies.mohitgupta.foodyyoucantstsyhungry",
+            "certificate_hash": "388c50a108e2701fe29b4167e69c196cea90a945"
+          }
+        },
+        {
+          "client_id": "847375846356-kioqfemkjosm72fub7uvoi7ir6u5np0g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.foodies.mohitgupta.foodyyoucantstsyhungry",
+            "certificate_hash": "9fbd312122ab7f9dcaf630883bc420ecb9d7281f"
+          }
+        },
+        {
+          "client_id": "847375846356-1um8ea2kquuttvdgk2vj7ki8b4gppnf9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.foodies.mohitgupta.foodyyoucantstsyhungry",
+            "certificate_hash": "5ccfe6d460d33a023687f87c1f5176f191fc95da"
+          }
+        },
+        {
+          "client_id": "847375846356-46hgq08sco099q2iu9l2ime9gm8fjdin.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.foodies.mohitgupta.foodyyoucantstsyhungry",
+            "certificate_hash": "d3f41f994108cde40ab46aed8a951e601c74bc0c"
+          }
+        },
+        {
+          "client_id": "847375846356-kroi3rufnbg85as04avbjkj2hivip20f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.foodies.mohitgupta.foodyyoucantstsyhungry",
+            "certificate_hash": "d3f41f994108cde40ab46aed8a951e601c74b20c"
+          }
+        },
+        {
+          "client_id": "847375846356-pdqqgj5rsoqu257n9fcqcrvecekr5rm2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqPkM9UsoRdiDjqyivutkoov_sc52Enek"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "847375846356-pdqqgj5rsoqu257n9fcqcrvecekr5rm2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

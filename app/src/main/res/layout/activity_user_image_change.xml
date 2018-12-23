@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context="com.foodies.mohitgupta.foodyyoucantstsyhungry.UserImageChange">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarContext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="#000000"
+        app:title="Profile Image"
+        app:titleMarginStart="30dp"
+        app:titleMarginTop="20dp"
+        app:titleTextColor="#FFFFFF"></android.support.v7.widget.Toolbar>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:foregroundGravity="center_vertical">
+
+        <ProgressBar
+            android:id="@+id/progressBar3"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:indeterminate="true"
+            android:layout_alignBottom="@+id/Image"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:foregroundGravity="center" />
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/Image"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center_horizontal"
+        android:accessibilityTraversalAfter="@+id/progressBar3"
+        android:scaleType="centerCrop" />
+</RelativeLayout>

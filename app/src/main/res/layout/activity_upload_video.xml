@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/scroll">
+
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.foodies.mohitgupta.foodyyoucantstsyhungry.UploadVideo">
+    <FrameLayout
+        android:id="@+id/videoSurfaceContainer"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" >
+
+        <VideoView
+            android:id="@+id/videoSurface"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+        </FrameLayout>
+    <TextView
+        android:id="@+id/ClickToUpload"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click Here To Upload a Video"
+        android:layout_margin="5dp"
+        android:onClick="videotext"/>
+    <EditText
+        android:id="@+id/VideoName"
+        android:theme="@style/AppTheme.NoActionBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Video Name"
+        android:padding="10dp"
+        android:background="@drawable/video_upload"/>
+    <EditText
+        android:id="@+id/ShortDesc"
+        android:theme="@style/AppTheme.NoActionBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:background="@drawable/video_upload"
+        android:hint="Short Description"/>
+    <EditText
+        android:id="@+id/LongDesc"
+        android:theme="@style/AppTheme.NoActionBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/video_upload"
+        android:paddingLeft="10dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="40dp"
+        android:layout_margin="10dp"
+        android:hint="Long Description"/>
+
+    <Spinner
+        android:id="@+id/Category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:spinnerMode="dropdown"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:theme="@style/AppTheme.NoActionBar"
+        android:entries="@array/CategorySelection"
+        android:background="@drawable/video_upload"/>
+
+       <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Upload"
+        android:layout_margin="10dp"
+        android:textColor="#FFFFFF"
+        android:onClick="UploadButtonClicked"
+        android:background="@drawable/blue_shapes2"/>
+
+</LinearLayout>
+</ScrollView>
